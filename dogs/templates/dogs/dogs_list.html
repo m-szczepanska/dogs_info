@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+        {% for dog in dogs %}
+            <p>
+                <a href="dog/{{ dog.id }}"> {{ dog.name }} - {{ dog.cage }}</a>
+            </p>
+        {% endfor %}
+{% endblock content %}

@@ -10,3 +10,6 @@
 
 # Mac OS
 *.DS_Store
+
+# Sqlite3
+*.sqlite3
